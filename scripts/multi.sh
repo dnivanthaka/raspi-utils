@@ -1,6 +1,7 @@
 #!/bin/bash
 # by Paul Colby (http://colby.id.au), no rights reserved ;)
-# Modified for multi-processor display by D.N. Amerasinge <nivanthaka@gmail.com>
+# URL: https://github.com/Leo-G/DevopsWiki/wiki/How-Linux-CPU-Usage-Time-and-Percentage-is-calculated
+# Modified for multi-processor display by D.N. Amerasinghe <nivanthaka@gmail.com>
 
 NUM_CPUS=`sed -n 's/^cpu[0-9]//p' /proc/stat | wc -l`
 
